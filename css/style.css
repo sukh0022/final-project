@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{margin: 0; padding: 0; font-family:poppins; }
+.main_container{max-width: 1600px; margin: auto;}
+.container{max-width: 1400px; margin: auto;}
+.header{float:left; width: 100%; background: #000;}
+.flex_header{float: left; width: 100%; display: flex; flex-wrap: wrap; align-items: center;}
+.logo{float: left; width: 10%;}
+.logo img{max-width: 100%;}
+.menu_bar{float: left; width: 70%;}
+.menu_bar ul{float: left; width: 100%; margin:0; padding:0; display: flex; justify-content: space-around;}
+.menu_bar ul li{float: left; list-style: none;}
+.menu_bar ul li a{float: left; text-decoration: none; color: #c28d00; padding: 20px 40px;}
+.menu_bar ul li a.active{background:#c28d00; color:#000; }
+.menu_bar ul li a:hover{background:#c28d00; color:#000; }
+.search_bar{float: left; width: 20%;}
+.search_bar form{float: left; width: 100%;}
+.search_bar form input[type=search]{float: left; width: 80%; height: 30px; border: 1px solid gray; text-indent: 10px}
+.search_bar form button{float: left; width: 20%; height: 30px; border:1px solid #c28d00; background:transparent; }
+.search_bar form button i{color: #c28d00;}
+.main_banner{float: left; width: 100%; position: relative;}
+.background_img{float: left; width: 100%; position: absolute; top: 0; left: 0; z-index: -1;}
+.background_img img{width: 100%; height: 70vh;}
+.welcome_content{float: left; width: 100%; background: #00000090; margin: 30px 0; padding-top: 30px;}
+.welcome_content h1{float: left; width: 100%; color: #fff; font-size: 100px; line-height: 100px; margin: 0; padding: 30px 0 0 30px; }
+.welcome_content p{float: left; width: 100%; color: #fff; font-size: 18px; padding-left: 30px;}
+.welcome_content button{float: left; width: 20%; padding: 20px 0 ; background: #c28d00; margin: 0 0 30px 30px; border: none; font-size: 30px; cursor: pointer;}
+.welcome_content button i{padding-left: 10px}
+.about_us{float: left; width: 100%; background:#fff8c8; padding:20px 0; }
+.about_img{float: left; width: 50%;}
+.about_img img{float: left; width: 100%;}
+.aboutus_text{float: left; width: 50%;}
+.aboutus_text h1{ padding-left: 20px; font-size: 48px; margin-top: 20px;}
+.aboutus_text p{ padding-left: 20px; font-size: 18px;}
+.services{float: left; width: 100%;}
+.services_dtls{float: left; width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.services_1{float: left; width: 49%; background:#fff8c8;}
+.services_1 img{float: left; width: 100%;}
+.services_1 h2{float: left; width: 96%; margin: 0 2%; padding:20px 0;}
+.services_1 p{float: left; width: 96%; margin: 0 2%; padding-bottom: 20px;}
+.services_1 button{float: left; width: 96%; margin:2%; background: #1c1c1c; color: #fff; font-size: 30px; line-height: 30px; padding:10px;}
+.services_1 button i{padding-left: 10px;}
+.services_2{float: left; width: 33%; background:#fff8c8; margin-top: 20px}
+.services_2 img{float: left; width: 100%;}
+.services_2 h2{float: left; width: 96%; margin: 0 2%; padding:20px 0;}
+.services_2 p{float: left; width: 96%; margin: 0 2%; padding-bottom: 20px;}
+.services_2 button{float: left; width: 96%; margin:2%; background: #1c1c1c; color: #fff; font-size: 30px; line-height: 30px; padding:10px;}
+.services_2 button i{padding-left: 10px;}
+.vision{float: left; width: 100%; padding: 30px 0; background-image: url(../images/vision.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.vision_text{float: left; width: 100%;}
+.vision_text h1{float: left; width: 100%; font-size: 50px; color: #fff; margin: 0;}
+.vision_text p{float: left; width: 100%; font-size: 20px; color: #fff;}
+.vision_text button{float: left; width: 15%; font-size: 20px; color: #fff; padding:30px 0; background:#00000050; border:1px solid #c28d00; }
+.vision_text button i{padding-left: 10px;}
+.our_team{float: left; width: 100%;}
+.team_1{float: left; width: 100%; background: #fff8c8; }
+.team_img{float: left; width: 50%}
+.team_img img{float: left; width: 100%;}
+.team_dtl{float: left; width: 46%; padding: 2%;}
+.team_dtl h1{float: left; width: 100%; font-size: 48px; margin:0;}
+.team_dtl span{float: left; width: 100%;  font-size: 24px;border-bottom:1px solid #c28d00; }
+.team_dtl p{float: left; width: 100%;  font-size: 18px; }
+.team_heading{float: left; width: 100%; font-size: 50px;}
+.contact_us{float: left; width: 100%;}
+.contact_heading{float: left; width: 100%; font-size: 50px;}
+.contact_form{float: left; width: 49%;}
+.contact_form h1{float: left; width: 100%; font-size: 30px;}
+.contact_form form{float: left; width: 100%;}
+.contact_form form label{float: left; width: 100%; font-size: 18px; margin: 10px 0}
+.contact_form form input{float: left; width: 100%; font-size: 18px; padding: 4px 0}
+.contact_form form textarea{float: left; width: 100%; font-size: 18px; height: 70px;}
+.contact_form form button{float: left; color:#c28d00; background:#000000ee; font-size:20px; margin:20px 0; }
+.contact_map{float: left; width: 49%; margin-left: 2%;}
+.contact_map iframe{float: left; width: 100%;}
+.operation{float: left; width: 100%}
+.operation_heading{float: left; width: 100%; font-size: 30px;}
+.operation_tb{float: left; width: 100%; margin-bottom: 20px;}
+.operation_tb, th, td {border: 1px solid black; border-collapse: collapse; }
+.operation_tb th{background: #ffdfc6}
+.operation_tb th,.operation_tb td {padding:10px }
+.footer{float: left; width: 100%; background: #000;}
+.footer p{float: left; width: 100%; color:#c28d00 }
+.footer p a{color:#c28d00 }
+
+
+@media only screen and (max-width:768px){
+	.logo{width: 100%; background: #c28d00;}
+	.menu_bar{width: 100%;}
+	.search_bar{width: 100%}
+	.menu_bar ul{flex-direction: column;}
+	.menu_bar ul li a{width: 100%; padding: 20px 0; text-align: center;}
+	.flex_header{margin-bottom: 20px}
+	.search_bar form{width: 90%; margin: 0 5%;}
+	.welcome_content h1{width: 94%; padding: 3%; font-size: 32px; line-height: 40px;}
+	.welcome_content p{font-size: 12px; padding-left: 10px;}
+	.welcome_content button{width: 40%; font-size: 14px; margin: 10px;}
+	.about_img,.aboutus_text{width: 100%;}
+	.background_img img{height: 57vh;}
+	.about_us{padding:0; margin: 20px 0;}
+	.about_img img{width: 94%; margin: 3%;}
+	.aboutus_text h1{margin: 0;}
+	.aboutus_text p{font-size: 12px;}
+	.services{width: 94%; margin: 3%;}
+	.services_1{width: 100%; margin-top: 10px;}
+	.services_2{width: 100%; margin-top: 10px;}
+	.vision_text h1{font-size: 30px;}
+	.vision_text{width: 94%; margin: 3%;}
+	.vision_text p{font-size: 11px;}
+	.vision_text button{width: 40%; padding: 20px; font-size: 14px;}
+	.team_heading,.contact_heading{font-size: 32px;}
+	.team_img{width: 100%;}
+	.team_dtl{width: 96%;}
+	.team_1,.contact_us,.operation{width: 94%; margin: 3%;}
+	.contact_form,.contact_map{width: 100%; margin: 0;}
+	.footer p{padding-left: 10px}
+
+
+}
